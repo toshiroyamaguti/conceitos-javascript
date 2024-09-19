@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console</title>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Vencemos o início</p>
+
+    <!-- Javascript -->
+     <script>
+        window.alert("Vamos começar o desespero");
+        let nome = window.prompt("Qual é o seu nome?");
+        console.log("Nome informado: " + nome);
+        window.confirm ("Estão entendendo?");
+        window.setTimeout(() => {
+        console.log ("Executando após 2 segundos.");
+        }, 2000);
+        /*window.open("https://www.google.com", "_blank");
+        window.close();*/
+        window.setInterval(function() {
+            window.clearInterval(intervalID);
+        });
+
+        window.scroll(x,y);
+
+        window.historry.back();
+
+        window.history.forward();
+
+        window.history.go(2);
+
+        window.location.href = "https://www.wikipedia.org";
+        
+     </script>
+</body>
+</html>
